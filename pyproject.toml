@@ -1,0 +1,10 @@
+[project]
+name = "entity-resolution-pipeline"
+version = "1.0.0"
+description = "Offset-preserving news entity extraction and cross-document resolution"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+

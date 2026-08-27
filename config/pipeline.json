@@ -1,0 +1,42 @@
+{
+  "pipeline_version": "1.0.0",
+  "segmenter": "regex",
+  "extractor": "keyword",
+  "spacy_model": "en_core_web_sm",
+  "gliner_model": "urchade/gliner_medium-v2.1",
+  "gliner_threshold": 0.5,
+  "fuzzy_accept_threshold": 92.0,
+  "fuzzy_ambiguous_threshold": 80.0,
+  "llm_enabled": false,
+  "llm_model": "",
+  "prompt_template_version": "1",
+  "honorifics": [
+    "Lt. Gen.", "Lt Gen", "Justice", "Prof.", "Professor", "Admiral",
+    "Adm.", "Shri", "Smt.", "Mrs.", "Mrs", "Mr.", "Mr", "Dr.", "Dr"
+  ],
+  "corporate_suffixes": [
+    "Private Limited", "Pvt. Ltd.", "Pvt Ltd", "Limited", "Ltd.", "Ltd",
+    "Incorporated", "Inc.", "Inc", "Corporation", "Corp.", "Corp", "LLP"
+  ],
+  "spacy_label_map": {
+    "PERSON": "PERSON", "ORG": "ORG", "GPE": "GPE", "LOC": "GPE",
+    "FAC": "FACILITY", "NORP": "GROUP"
+  },
+  "gliner_labels": [
+    "person", "organization", "geopolitical entity", "government agency",
+    "military unit", "weapons system", "facility", "vessel"
+  ],
+  "gliner_label_map": {
+    "person": "PERSON", "person name": "PERSON", "individual": "PERSON",
+    "organization": "ORG", "geopolitical entity": "GPE",
+    "government agency": "GOVERNMENT_AGENCY", "military unit": "MILITARY_UNIT",
+    "weapons system": "WEAPONS_SYSTEM", "facility": "FACILITY", "vessel": "VESSEL"
+  },
+  "keyword_entities": {
+    "PERSON": ["Dr. Rajesh Sharma", "Rajesh Sharma", "R. Sharma", "Anita Desai"],
+    "ORG": ["Bhabha Atomic Research Centre", "BARC", "Indian Navy", "Indian Army", "Acme Pvt. Ltd."],
+    "GPE": ["Mumbai", "Delhi", "India"],
+    "FACILITY": ["Tarapur Atomic Power Station"]
+  }
+}
+

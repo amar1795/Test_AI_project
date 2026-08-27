@@ -1,0 +1,285 @@
+{
+  "ent_00001": {
+    "aliases": [
+      "Dr. Rajesh Sharma",
+      "R. Sharma",
+      "Rajesh Sharma"
+    ],
+    "blocked_aliases": [],
+    "canonical": "Rajesh Sharma",
+    "doc_count": 3,
+    "document_ids": [
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b",
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4",
+      "f369a8a1a67997e649cfaad872e96e4751fa8520"
+    ],
+    "entity_id": "ent_00001",
+    "first_seen": "2026-03-14",
+    "label": "PERSON",
+    "mention_keys": [
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b:0:9:PERSON",
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4:0:17:PERSON",
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:34:47:PERSON"
+    ],
+    "resolution_records": {
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b:0:9:PERSON": {
+        "confidence": 0.95,
+        "method": "registry_alias"
+      },
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4:0:17:PERSON": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      },
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:34:47:PERSON": {
+        "confidence": 1.0,
+        "method": "registry_exact"
+      }
+    },
+    "surface_counts": {
+      "Dr. Rajesh Sharma": 1,
+      "R. Sharma": 1,
+      "Rajesh Sharma": 1
+    }
+  },
+  "ent_00002": {
+    "aliases": [
+      "BARC",
+      "Bhabha Atomic Research Centre"
+    ],
+    "blocked_aliases": [],
+    "canonical": "Bhabha Atomic Research Centre",
+    "doc_count": 1,
+    "document_ids": [
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4"
+    ],
+    "entity_id": "ent_00002",
+    "first_seen": "2026-03-14",
+    "label": "ORG",
+    "mention_keys": [
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4:35:64:ORG",
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4:87:91:ORG"
+    ],
+    "resolution_records": {
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4:35:64:ORG": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      },
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4:87:91:ORG": {
+        "confidence": 0.95,
+        "method": "registry_alias"
+      }
+    },
+    "surface_counts": {
+      "BARC": 1,
+      "Bhabha Atomic Research Centre": 1
+    }
+  },
+  "ent_00003": {
+    "aliases": [
+      "Mumbai"
+    ],
+    "blocked_aliases": [],
+    "canonical": "Mumbai",
+    "doc_count": 1,
+    "document_ids": [
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4"
+    ],
+    "entity_id": "ent_00003",
+    "first_seen": "2026-03-14",
+    "label": "GPE",
+    "mention_keys": [
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4:75:81:GPE"
+    ],
+    "resolution_records": {
+      "933849de56d25591326eb51fc1f7f7ff1efb40b4:75:81:GPE": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      }
+    },
+    "surface_counts": {
+      "Mumbai": 1
+    }
+  },
+  "ent_00004": {
+    "aliases": [
+      "Tarapur Atomic Power Station"
+    ],
+    "blocked_aliases": [],
+    "canonical": "Tarapur Atomic Power Station",
+    "doc_count": 1,
+    "document_ids": [
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b"
+    ],
+    "entity_id": "ent_00004",
+    "first_seen": "2026-03-15",
+    "label": "FACILITY",
+    "mention_keys": [
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b:28:56:FACILITY"
+    ],
+    "resolution_records": {
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b:28:56:FACILITY": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      }
+    },
+    "surface_counts": {
+      "Tarapur Atomic Power Station": 1
+    }
+  },
+  "ent_00005": {
+    "aliases": [
+      "Indian Navy"
+    ],
+    "blocked_aliases": [],
+    "canonical": "Indian Navy",
+    "doc_count": 1,
+    "document_ids": [
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b"
+    ],
+    "entity_id": "ent_00005",
+    "first_seen": "2026-03-15",
+    "label": "ORG",
+    "mention_keys": [
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b:66:77:ORG"
+    ],
+    "resolution_records": {
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b:66:77:ORG": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      }
+    },
+    "surface_counts": {
+      "Indian Navy": 1
+    }
+  },
+  "ent_00006": {
+    "aliases": [
+      "India"
+    ],
+    "blocked_aliases": [],
+    "canonical": "India",
+    "doc_count": 1,
+    "document_ids": [
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b"
+    ],
+    "entity_id": "ent_00006",
+    "first_seen": "2026-03-15",
+    "label": "GPE",
+    "mention_keys": [
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b:92:97:GPE"
+    ],
+    "resolution_records": {
+      "24910710d6e24f7b0d36bbcbc66e361c77f3702b:92:97:GPE": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      }
+    },
+    "surface_counts": {
+      "India": 1
+    }
+  },
+  "ent_00007": {
+    "aliases": [
+      "Anita Desai"
+    ],
+    "blocked_aliases": [],
+    "canonical": "Anita Desai",
+    "doc_count": 1,
+    "document_ids": [
+      "f369a8a1a67997e649cfaad872e96e4751fa8520"
+    ],
+    "entity_id": "ent_00007",
+    "first_seen": "2026-03-16",
+    "label": "PERSON",
+    "mention_keys": [
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:0:11:PERSON"
+    ],
+    "resolution_records": {
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:0:11:PERSON": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      }
+    },
+    "surface_counts": {
+      "Anita Desai": 1
+    }
+  },
+  "ent_00008": {
+    "aliases": [
+      "Acme Pvt. Ltd."
+    ],
+    "blocked_aliases": [],
+    "canonical": "Acme",
+    "doc_count": 1,
+    "document_ids": [
+      "f369a8a1a67997e649cfaad872e96e4751fa8520"
+    ],
+    "entity_id": "ent_00008",
+    "first_seen": "2026-03-16",
+    "label": "ORG",
+    "mention_keys": [
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:15:29:ORG"
+    ],
+    "resolution_records": {
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:15:29:ORG": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      }
+    },
+    "surface_counts": {
+      "Acme Pvt. Ltd.": 1
+    }
+  },
+  "ent_00009": {
+    "aliases": [
+      "Delhi"
+    ],
+    "blocked_aliases": [],
+    "canonical": "Delhi",
+    "doc_count": 1,
+    "document_ids": [
+      "f369a8a1a67997e649cfaad872e96e4751fa8520"
+    ],
+    "entity_id": "ent_00009",
+    "first_seen": "2026-03-16",
+    "label": "GPE",
+    "mention_keys": [
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:51:56:GPE"
+    ],
+    "resolution_records": {
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:51:56:GPE": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      }
+    },
+    "surface_counts": {
+      "Delhi": 1
+    }
+  },
+  "ent_00010": {
+    "aliases": [
+      "Indian Army"
+    ],
+    "blocked_aliases": [],
+    "canonical": "Indian Army",
+    "doc_count": 1,
+    "document_ids": [
+      "f369a8a1a67997e649cfaad872e96e4751fa8520"
+    ],
+    "entity_id": "ent_00010",
+    "first_seen": "2026-03-16",
+    "label": "ORG",
+    "mention_keys": [
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:62:73:ORG"
+    ],
+    "resolution_records": {
+      "f369a8a1a67997e649cfaad872e96e4751fa8520:62:73:ORG": {
+        "confidence": 1.0,
+        "method": "new_entity"
+      }
+    },
+    "surface_counts": {
+      "Indian Army": 1
+    }
+  }
+}
